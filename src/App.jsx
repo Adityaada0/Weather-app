@@ -53,7 +53,7 @@ function WeatherApp() {
         <input
           type="text"
           placeholder="Enter city name"
-          className="border p-2 rounded w-full mb-4"
+          className="border p-[5px] rounded w-full mb-4 "
           value={city}
           onChange={(e) => setCity(e.target.value)}
         />
